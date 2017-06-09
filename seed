@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+class seed{
+    
+    public static void main(String x[])
+    {
+        int no,sed,d=0,r=0;
+        Scanner in=new Scanner(System.in);
+        no=in.nextInt();
+        //sed=in.nextInt();
+        while(no>0){
+             r=no%10;
+            d=Math.pow(r,2)+d;
+            no=no/10;
+            
+        }
+        System.out.println(d);
+	
+	}
+}
